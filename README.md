@@ -17,6 +17,16 @@ A real-time AI voice assistant built with Python using the [ElevenLabs Conversat
 
 ### 1. Clone the repository
 
-```bash
-git clone https://github.com/<your-username>/voice_assistant.git
-cd elevenlabs-voice-assistant
+git clone https://github.com/Deeksha1709/voice_assistant.git
+cd voice_assistant
+
+### 2. Create and activate a virtual environment
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1   # Windows PowerShell
+
+### 3. Install required Python packages
+pip install --upgrade pip
+pip install python-dotenv elevenlabs[pyaudio]
+
+### 4. Configure environment variables
+Copy the example environment file:
