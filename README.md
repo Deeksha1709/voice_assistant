@@ -18,5 +18,5 @@ A real-time AI voice assistant built with Python using the [ElevenLabs Conversat
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/elevenlabs-voice-assistant.git
+git clone https://github.com/<your-username>/voice_assistant.git
 cd elevenlabs-voice-assistant
